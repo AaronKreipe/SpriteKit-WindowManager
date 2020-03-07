@@ -247,6 +247,7 @@
 		D6D2B3402185AF58002380C1 /* WMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMButton.swift; sourceTree = "<group>"; };
 		D6D594AF2197D13C00D308EA /* SKSpriteNode+RepeatTexture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+RepeatTexture.swift"; sourceTree = "<group>"; };
 		D6EF8D1E21895D7C004F3596 /* WindowTitleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WindowTitleBar.png; sourceTree = "<group>"; };
+		D6F103992413326000C0F6D6 /* SpriteSheet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SpriteSheet.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +303,7 @@
 		D668F6592185427C00B29CD0 = {
 			isa = PBXGroup;
 			children = (
+				D6F103992413326000C0F6D6 /* SpriteSheet.playground */,
 				D668F67D2185432E00B29CD0 /* SKWindowManagerKit */,
 				D683D080218D0DB300F408E6 /* ClassicWMKit */,
 				D668F6642185427D00B29CD0 /* SpriteKitWindowManager */,
