@@ -1,0 +1,1461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6552E462193949F009F3D1C /* WMGestureRecognizer.State+UIGestureRecognizerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6552E452193949E009F3D1C /* WMGestureRecognizer.State+UIGestureRecognizerState.swift */; };
+		D6552E4821939607009F3D1C /* WMGestureRecognizer.State+WKGestureRecognizerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6552E4721939607009F3D1C /* WMGestureRecognizer.State+WKGestureRecognizerState.swift */; };
+		D668F6662185427D00B29CD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668F6652185427D00B29CD0 /* AppDelegate.swift */; };
+		D668F6682185427D00B29CD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668F6672185427D00B29CD0 /* ViewController.swift */; };
+		D668F66B2185427D00B29CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D668F6692185427D00B29CD0 /* Main.storyboard */; };
+		D668F66D2185427E00B29CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D668F66C2185427E00B29CD0 /* Assets.xcassets */; };
+		D668F6702185427E00B29CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D668F66E2185427E00B29CD0 /* LaunchScreen.storyboard */; };
+		D668F6802185432E00B29CD0 /* SKWindowManagerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D668F67E2185432E00B29CD0 /* SKWindowManagerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D668F6832185432E00B29CD0 /* SKWindowManagerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668F67C2185432E00B29CD0 /* SKWindowManagerKit.framework */; };
+		D668F6842185432E00B29CD0 /* SKWindowManagerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D668F67C2185432E00B29CD0 /* SKWindowManagerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D668F68A2185436000B29CD0 /* SpriteKit+WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668F6892185436000B29CD0 /* SpriteKit+WindowManager.swift */; };
+		D668F68C2185439200B29CD0 /* SKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668F68B2185439200B29CD0 /* SKViewController.swift */; };
+		D683D075218C40E700F408E6 /* ResizeableSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6436470218B9950005FB962 /* ResizeableSpriteNode.swift */; };
+		D683D076218C40E800F408E6 /* ResizeableSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6436470218B9950005FB962 /* ResizeableSpriteNode.swift */; };
+		D683D083218D0DB300F408E6 /* ClassicWMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D683D081218D0DB300F408E6 /* ClassicWMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D683D086218D0DB300F408E6 /* ClassicWMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D683D07F218D0DB300F408E6 /* ClassicWMKit.framework */; };
+		D683D087218D0DB300F408E6 /* ClassicWMKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D683D07F218D0DB300F408E6 /* ClassicWMKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D683D096218D0DE900F408E6 /* ClassicWMKit_Watch.h in Headers */ = {isa = PBXBuildFile; fileRef = D683D094218D0DE900F408E6 /* ClassicWMKit_Watch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D683D099218D0DE900F408E6 /* ClassicWMKit_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D683D092218D0DE800F408E6 /* ClassicWMKit_Watch.framework */; };
+		D683D09A218D0DE900F408E6 /* ClassicWMKit_Watch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D683D092218D0DE800F408E6 /* ClassicWMKit_Watch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D683D0A1218D0ED200F408E6 /* TitledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D0A0218D0ED200F408E6 /* TitledButton.swift */; };
+		D683D0A2218D0ED200F408E6 /* TitledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D0A0218D0ED200F408E6 /* TitledButton.swift */; };
+		D683D0A3218D0F8400F408E6 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCAF6A21869DF70038FEE2 /* WindowController.swift */; };
+		D683D0A4218D0F8500F408E6 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCAF6A21869DF70038FEE2 /* WindowController.swift */; };
+		D683D0A6218D0FCD00F408E6 /* WMResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D0A5218D0FCD00F408E6 /* WMResources.swift */; };
+		D683D0A7218D0FCD00F408E6 /* WMResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D0A5218D0FCD00F408E6 /* WMResources.swift */; };
+		D683D0AA218D334900F408E6 /* chicago.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6BCAF6F2187093F0038FEE2 /* chicago.ttf */; };
+		D683D0AB218D334900F408E6 /* chicago.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6BCAF6F2187093F0038FEE2 /* chicago.ttf */; };
+		D683D0B4218D6A6700F408E6 /* SKTextureAtlas+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D0B3218D6A6700F408E6 /* SKTextureAtlas+.swift */; };
+		D683D0B5218D6A6700F408E6 /* SKTextureAtlas+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D0B3218D6A6700F408E6 /* SKTextureAtlas+.swift */; };
+		D683D0B6218D6A6700F408E6 /* SKTextureAtlas+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D0B3218D6A6700F408E6 /* SKTextureAtlas+.swift */; };
+		D683D0B7218D6A6700F408E6 /* SKTextureAtlas+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683D0B3218D6A6700F408E6 /* SKTextureAtlas+.swift */; };
+		D6B7D5FB2188F3A300409433 /* SKNode+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7D5FA2188F3A300409433 /* SKNode+.swift */; };
+		D6B7D5FC2188F3A300409433 /* SKNode+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7D5FA2188F3A300409433 /* SKNode+.swift */; };
+		D6BCAF2921868E570038FEE2 /* MyNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCAF2821868E570038FEE2 /* MyNodeController.swift */; };
+		D6BCAF3021869A870038FEE2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6BCAF2E21869A870038FEE2 /* Interface.storyboard */; };
+		D6BCAF3221869A880038FEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6BCAF3121869A880038FEE2 /* Assets.xcassets */; };
+		D6BCAF3921869A890038FEE2 /* WMWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D6BCAF3821869A890038FEE2 /* WMWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D6BCAF3E21869A890038FEE2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCAF3D21869A890038FEE2 /* InterfaceController.swift */; };
+		D6BCAF4221869A890038FEE2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCAF4121869A890038FEE2 /* ExtensionDelegate.swift */; };
+		D6BCAF4421869A8A0038FEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6BCAF4321869A8A0038FEE2 /* Assets.xcassets */; };
+		D6BCAF4821869A8A0038FEE2 /* WMWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D6BCAF2C21869A870038FEE2 /* WMWatch.app */; };
+		D6BCAF5E21869BDD0038FEE2 /* SKWindowManagerWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = D6BCAF5C21869BDD0038FEE2 /* SKWindowManagerWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6BCAF6121869BDD0038FEE2 /* SKWindowManagerKit_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BCAF5A21869BDD0038FEE2 /* SKWindowManagerKit_Watch.framework */; };
+		D6BCAF6221869BDD0038FEE2 /* SKWindowManagerKit_Watch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6BCAF5A21869BDD0038FEE2 /* SKWindowManagerKit_Watch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D6BCAF6721869C0D0038FEE2 /* SpriteKit+WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668F6892185436000B29CD0 /* SpriteKit+WindowManager.swift */; };
+		D6BCAF6821869C110038FEE2 /* WMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2B3402185AF58002380C1 /* WMButton.swift */; };
+		D6BCAF6E2186A4670038FEE2 /* WKGestureRecognizer+SpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCAF6D2186A4670038FEE2 /* WKGestureRecognizer+SpriteKit.swift */; };
+		D6C0AE96219914FB007D7DDD /* closeBoxNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE8B219914FB007D7DDD /* closeBoxNormal.png */; };
+		D6C0AE97219914FB007D7DDD /* closeBoxNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE8B219914FB007D7DDD /* closeBoxNormal.png */; };
+		D6C0AE98219914FB007D7DDD /* buttonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE8C219914FB007D7DDD /* buttonNormal.png */; };
+		D6C0AE99219914FB007D7DDD /* buttonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE8C219914FB007D7DDD /* buttonNormal.png */; };
+		D6C0AE9A219914FB007D7DDD /* closeBoxActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE8D219914FB007D7DDD /* closeBoxActive.png */; };
+		D6C0AE9B219914FB007D7DDD /* closeBoxActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE8D219914FB007D7DDD /* closeBoxActive.png */; };
+		D6C0AE9C219914FC007D7DDD /* classicGray.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE8E219914FB007D7DDD /* classicGray.png */; };
+		D6C0AE9D219914FC007D7DDD /* classicGray.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE8E219914FB007D7DDD /* classicGray.png */; };
+		D6C0AE9E219914FC007D7DDD /* buttonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE8F219914FB007D7DDD /* buttonActive.png */; };
+		D6C0AE9F219914FC007D7DDD /* buttonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE8F219914FB007D7DDD /* buttonActive.png */; };
+		D6C0AEA0219914FC007D7DDD /* selectedButtonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE90219914FB007D7DDD /* selectedButtonActive.png */; };
+		D6C0AEA1219914FC007D7DDD /* selectedButtonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE90219914FB007D7DDD /* selectedButtonActive.png */; };
+		D6C0AEA2219914FC007D7DDD /* titlebarActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE91219914FB007D7DDD /* titlebarActive.png */; };
+		D6C0AEA3219914FC007D7DDD /* titlebarActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE91219914FB007D7DDD /* titlebarActive.png */; };
+		D6C0AEA4219914FC007D7DDD /* titlebarDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE92219914FB007D7DDD /* titlebarDisabled.png */; };
+		D6C0AEA5219914FC007D7DDD /* titlebarDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE92219914FB007D7DDD /* titlebarDisabled.png */; };
+		D6C0AEA6219914FC007D7DDD /* windowBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE93219914FB007D7DDD /* windowBorder.png */; };
+		D6C0AEA7219914FC007D7DDD /* windowBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE93219914FB007D7DDD /* windowBorder.png */; };
+		D6C0AEA8219914FC007D7DDD /* selectedButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE94219914FB007D7DDD /* selectedButtonNormal.png */; };
+		D6C0AEA9219914FC007D7DDD /* selectedButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE94219914FB007D7DDD /* selectedButtonNormal.png */; };
+		D6C0AEAA219914FC007D7DDD /* colorsFourByFour.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE95219914FB007D7DDD /* colorsFourByFour.png */; };
+		D6C0AEAB219914FC007D7DDD /* colorsFourByFour.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C0AE95219914FB007D7DDD /* colorsFourByFour.png */; };
+		D6D2B3412185AF58002380C1 /* WMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2B3402185AF58002380C1 /* WMButton.swift */; };
+		D6D594B02197D13C00D308EA /* SKSpriteNode+RepeatTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D594AF2197D13C00D308EA /* SKSpriteNode+RepeatTexture.swift */; };
+		D6D594B42197E08100D308EA /* SKSpriteNode+RepeatTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D594AF2197D13C00D308EA /* SKSpriteNode+RepeatTexture.swift */; };
+		D6EF8D1F21895D7C004F3596 /* WindowTitleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EF8D1E21895D7C004F3596 /* WindowTitleBar.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D668F6812185432E00B29CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D668F65A2185427C00B29CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D668F67B2185432E00B29CD0;
+			remoteInfo = SKWindowManagerKit;
+		};
+		D683D084218D0DB300F408E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D668F65A2185427C00B29CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D683D07E218D0DB300F408E6;
+			remoteInfo = ClassicWMKit;
+		};
+		D683D08B218D0DC100F408E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D668F65A2185427C00B29CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D668F67B2185432E00B29CD0;
+			remoteInfo = SKWindowManagerKit;
+		};
+		D683D097218D0DE900F408E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D668F65A2185427C00B29CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D683D091218D0DE800F408E6;
+			remoteInfo = ClassicWMKit_Watch;
+		};
+		D683D09E218D0DF100F408E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D668F65A2185427C00B29CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6BCAF5921869BDD0038FEE2;
+			remoteInfo = SKWindowManagerWatch;
+		};
+		D6BCAF3A21869A890038FEE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D668F65A2185427C00B29CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6BCAF3721869A890038FEE2;
+			remoteInfo = "WMWatch Extension";
+		};
+		D6BCAF4621869A8A0038FEE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D668F65A2185427C00B29CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6BCAF2B21869A870038FEE2;
+			remoteInfo = WMWatch;
+		};
+		D6BCAF5F21869BDD0038FEE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D668F65A2185427C00B29CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6BCAF5921869BDD0038FEE2;
+			remoteInfo = SKWindowManagerWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D668F6882185432E00B29CD0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D683D087218D0DB300F408E6 /* ClassicWMKit.framework in Embed Frameworks */,
+				D668F6842185432E00B29CD0 /* SKWindowManagerKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF4C21869A8A0038FEE2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D6BCAF3921869A890038FEE2 /* WMWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF5021869A8A0038FEE2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D6BCAF4821869A8A0038FEE2 /* WMWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF6621869BDD0038FEE2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D683D09A218D0DE900F408E6 /* ClassicWMKit_Watch.framework in Embed Frameworks */,
+				D6BCAF6221869BDD0038FEE2 /* SKWindowManagerKit_Watch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D6436470218B9950005FB962 /* ResizeableSpriteNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeableSpriteNode.swift; sourceTree = "<group>"; };
+		D6552E452193949E009F3D1C /* WMGestureRecognizer.State+UIGestureRecognizerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WMGestureRecognizer.State+UIGestureRecognizerState.swift"; sourceTree = "<group>"; };
+		D6552E4721939607009F3D1C /* WMGestureRecognizer.State+WKGestureRecognizerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WMGestureRecognizer.State+WKGestureRecognizerState.swift"; sourceTree = "<group>"; };
+		D668F6622185427D00B29CD0 /* SpriteKitWindowManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitWindowManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D668F6652185427D00B29CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D668F6672185427D00B29CD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D668F66A2185427D00B29CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D668F66C2185427E00B29CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D668F66F2185427E00B29CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D668F6712185427E00B29CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D668F67C2185432E00B29CD0 /* SKWindowManagerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKWindowManagerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D668F67E2185432E00B29CD0 /* SKWindowManagerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKWindowManagerKit.h; sourceTree = "<group>"; };
+		D668F67F2185432E00B29CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D668F6892185436000B29CD0 /* SpriteKit+WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpriteKit+WindowManager.swift"; sourceTree = "<group>"; };
+		D668F68B2185439200B29CD0 /* SKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKViewController.swift; sourceTree = "<group>"; };
+		D683D07F218D0DB300F408E6 /* ClassicWMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClassicWMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D683D081218D0DB300F408E6 /* ClassicWMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassicWMKit.h; sourceTree = "<group>"; };
+		D683D082218D0DB300F408E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D683D092218D0DE800F408E6 /* ClassicWMKit_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClassicWMKit_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D683D094218D0DE900F408E6 /* ClassicWMKit_Watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassicWMKit_Watch.h; sourceTree = "<group>"; };
+		D683D095218D0DE900F408E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D683D0A0218D0ED200F408E6 /* TitledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitledButton.swift; sourceTree = "<group>"; };
+		D683D0A5218D0FCD00F408E6 /* WMResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMResources.swift; sourceTree = "<group>"; };
+		D683D0B3218D6A6700F408E6 /* SKTextureAtlas+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKTextureAtlas+.swift"; sourceTree = "<group>"; };
+		D6B7D5FA2188F3A300409433 /* SKNode+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+.swift"; sourceTree = "<group>"; };
+		D6BCAF2821868E570038FEE2 /* MyNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNodeController.swift; sourceTree = "<group>"; };
+		D6BCAF2C21869A870038FEE2 /* WMWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BCAF2F21869A870038FEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D6BCAF3121869A880038FEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6BCAF3321869A880038FEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6BCAF3821869A890038FEE2 /* WMWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WMWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BCAF3D21869A890038FEE2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D6BCAF4121869A890038FEE2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D6BCAF4321869A8A0038FEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6BCAF4521869A8A0038FEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6BCAF5A21869BDD0038FEE2 /* SKWindowManagerKit_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKWindowManagerKit_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BCAF5C21869BDD0038FEE2 /* SKWindowManagerWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKWindowManagerWatch.h; sourceTree = "<group>"; };
+		D6BCAF5D21869BDD0038FEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6BCAF6A21869DF70038FEE2 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		D6BCAF6D2186A4670038FEE2 /* WKGestureRecognizer+SpriteKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WKGestureRecognizer+SpriteKit.swift"; sourceTree = "<group>"; };
+		D6BCAF6F2187093F0038FEE2 /* chicago.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicago.ttf; sourceTree = "<group>"; };
+		D6C0AE8B219914FB007D7DDD /* closeBoxNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeBoxNormal.png; sourceTree = "<group>"; };
+		D6C0AE8C219914FB007D7DDD /* buttonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonNormal.png; sourceTree = "<group>"; };
+		D6C0AE8D219914FB007D7DDD /* closeBoxActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeBoxActive.png; sourceTree = "<group>"; };
+		D6C0AE8E219914FB007D7DDD /* classicGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classicGray.png; sourceTree = "<group>"; };
+		D6C0AE8F219914FB007D7DDD /* buttonActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonActive.png; sourceTree = "<group>"; };
+		D6C0AE90219914FB007D7DDD /* selectedButtonActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedButtonActive.png; sourceTree = "<group>"; };
+		D6C0AE91219914FB007D7DDD /* titlebarActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlebarActive.png; sourceTree = "<group>"; };
+		D6C0AE92219914FB007D7DDD /* titlebarDisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlebarDisabled.png; sourceTree = "<group>"; };
+		D6C0AE93219914FB007D7DDD /* windowBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windowBorder.png; sourceTree = "<group>"; };
+		D6C0AE94219914FB007D7DDD /* selectedButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedButtonNormal.png; sourceTree = "<group>"; };
+		D6C0AE95219914FB007D7DDD /* colorsFourByFour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorsFourByFour.png; sourceTree = "<group>"; };
+		D6D2B3402185AF58002380C1 /* WMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMButton.swift; sourceTree = "<group>"; };
+		D6D594AF2197D13C00D308EA /* SKSpriteNode+RepeatTexture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+RepeatTexture.swift"; sourceTree = "<group>"; };
+		D6EF8D1E21895D7C004F3596 /* WindowTitleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WindowTitleBar.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D668F65F2185427C00B29CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683D086218D0DB300F408E6 /* ClassicWMKit.framework in Frameworks */,
+				D668F6832185432E00B29CD0 /* SKWindowManagerKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D668F6792185432E00B29CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D07C218D0DB300F408E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D08F218D0DE800F408E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF3521869A890038FEE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683D099218D0DE900F408E6 /* ClassicWMKit_Watch.framework in Frameworks */,
+				D6BCAF6121869BDD0038FEE2 /* SKWindowManagerKit_Watch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF5721869BDD0038FEE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D668F6592185427C00B29CD0 = {
+			isa = PBXGroup;
+			children = (
+				D668F67D2185432E00B29CD0 /* SKWindowManagerKit */,
+				D683D080218D0DB300F408E6 /* ClassicWMKit */,
+				D668F6642185427D00B29CD0 /* SpriteKitWindowManager */,
+				D6BCAF3C21869A890038FEE2 /* WMWatch Extension */,
+				D6BCAF2D21869A870038FEE2 /* WMWatch */,
+				D6BCAF5B21869BDD0038FEE2 /* SKWindowManagerWatch */,
+				D683D093218D0DE900F408E6 /* ClassicWMKit_Watch */,
+				D668F6632185427D00B29CD0 /* Products */,
+				D6BCAF5321869B5F0038FEE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D668F6632185427D00B29CD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D668F6622185427D00B29CD0 /* SpriteKitWindowManager.app */,
+				D668F67C2185432E00B29CD0 /* SKWindowManagerKit.framework */,
+				D6BCAF2C21869A870038FEE2 /* WMWatch.app */,
+				D6BCAF3821869A890038FEE2 /* WMWatch Extension.appex */,
+				D6BCAF5A21869BDD0038FEE2 /* SKWindowManagerKit_Watch.framework */,
+				D683D07F218D0DB300F408E6 /* ClassicWMKit.framework */,
+				D683D092218D0DE800F408E6 /* ClassicWMKit_Watch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D668F6642185427D00B29CD0 /* SpriteKitWindowManager */ = {
+			isa = PBXGroup;
+			children = (
+				D668F6652185427D00B29CD0 /* AppDelegate.swift */,
+				D668F6672185427D00B29CD0 /* ViewController.swift */,
+				D668F68B2185439200B29CD0 /* SKViewController.swift */,
+				D6552E452193949E009F3D1C /* WMGestureRecognizer.State+UIGestureRecognizerState.swift */,
+				D6BCAF2821868E570038FEE2 /* MyNodeController.swift */,
+				D668F6692185427D00B29CD0 /* Main.storyboard */,
+				D668F66C2185427E00B29CD0 /* Assets.xcassets */,
+				D668F66E2185427E00B29CD0 /* LaunchScreen.storyboard */,
+				D668F6712185427E00B29CD0 /* Info.plist */,
+			);
+			path = SpriteKitWindowManager;
+			sourceTree = "<group>";
+		};
+		D668F67D2185432E00B29CD0 /* SKWindowManagerKit */ = {
+			isa = PBXGroup;
+			children = (
+				D668F67E2185432E00B29CD0 /* SKWindowManagerKit.h */,
+				D668F6892185436000B29CD0 /* SpriteKit+WindowManager.swift */,
+				D6B7D5FA2188F3A300409433 /* SKNode+.swift */,
+				D6D2B3402185AF58002380C1 /* WMButton.swift */,
+				D6436470218B9950005FB962 /* ResizeableSpriteNode.swift */,
+				D6D594AF2197D13C00D308EA /* SKSpriteNode+RepeatTexture.swift */,
+				D668F67F2185432E00B29CD0 /* Info.plist */,
+			);
+			path = SKWindowManagerKit;
+			sourceTree = "<group>";
+		};
+		D683D080218D0DB300F408E6 /* ClassicWMKit */ = {
+			isa = PBXGroup;
+			children = (
+				D6C0AEAD21991510007D7DDD /* WMImages */,
+				D6BCAF6F2187093F0038FEE2 /* chicago.ttf */,
+				D683D081218D0DB300F408E6 /* ClassicWMKit.h */,
+				D683D0A0218D0ED200F408E6 /* TitledButton.swift */,
+				D683D0B3218D6A6700F408E6 /* SKTextureAtlas+.swift */,
+				D6BCAF6A21869DF70038FEE2 /* WindowController.swift */,
+				D683D0A5218D0FCD00F408E6 /* WMResources.swift */,
+				D683D082218D0DB300F408E6 /* Info.plist */,
+			);
+			path = ClassicWMKit;
+			sourceTree = "<group>";
+		};
+		D683D093218D0DE900F408E6 /* ClassicWMKit_Watch */ = {
+			isa = PBXGroup;
+			children = (
+				D683D094218D0DE900F408E6 /* ClassicWMKit_Watch.h */,
+				D683D095218D0DE900F408E6 /* Info.plist */,
+			);
+			path = ClassicWMKit_Watch;
+			sourceTree = "<group>";
+		};
+		D6BCAF2D21869A870038FEE2 /* WMWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D6BCAF2E21869A870038FEE2 /* Interface.storyboard */,
+				D6BCAF3121869A880038FEE2 /* Assets.xcassets */,
+				D6BCAF3321869A880038FEE2 /* Info.plist */,
+			);
+			path = WMWatch;
+			sourceTree = "<group>";
+		};
+		D6BCAF3C21869A890038FEE2 /* WMWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D6BCAF4121869A890038FEE2 /* ExtensionDelegate.swift */,
+				D6BCAF6D2186A4670038FEE2 /* WKGestureRecognizer+SpriteKit.swift */,
+				D6BCAF3D21869A890038FEE2 /* InterfaceController.swift */,
+				D6552E4721939607009F3D1C /* WMGestureRecognizer.State+WKGestureRecognizerState.swift */,
+				D6EF8D1E21895D7C004F3596 /* WindowTitleBar.png */,
+				D6BCAF4321869A8A0038FEE2 /* Assets.xcassets */,
+				D6BCAF4521869A8A0038FEE2 /* Info.plist */,
+			);
+			path = "WMWatch Extension";
+			sourceTree = "<group>";
+		};
+		D6BCAF5321869B5F0038FEE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6BCAF5B21869BDD0038FEE2 /* SKWindowManagerWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D6BCAF5C21869BDD0038FEE2 /* SKWindowManagerWatch.h */,
+				D6BCAF5D21869BDD0038FEE2 /* Info.plist */,
+			);
+			path = SKWindowManagerWatch;
+			sourceTree = "<group>";
+		};
+		D6C0AEAD21991510007D7DDD /* WMImages */ = {
+			isa = PBXGroup;
+			children = (
+				D6C0AE8F219914FB007D7DDD /* buttonActive.png */,
+				D6C0AE8C219914FB007D7DDD /* buttonNormal.png */,
+				D6C0AE8E219914FB007D7DDD /* classicGray.png */,
+				D6C0AE8D219914FB007D7DDD /* closeBoxActive.png */,
+				D6C0AE8B219914FB007D7DDD /* closeBoxNormal.png */,
+				D6C0AE95219914FB007D7DDD /* colorsFourByFour.png */,
+				D6C0AE90219914FB007D7DDD /* selectedButtonActive.png */,
+				D6C0AE94219914FB007D7DDD /* selectedButtonNormal.png */,
+				D6C0AE91219914FB007D7DDD /* titlebarActive.png */,
+				D6C0AE92219914FB007D7DDD /* titlebarDisabled.png */,
+				D6C0AE93219914FB007D7DDD /* windowBorder.png */,
+			);
+			path = WMImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D668F6772185432E00B29CD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D668F6802185432E00B29CD0 /* SKWindowManagerKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D07A218D0DB300F408E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683D083218D0DB300F408E6 /* ClassicWMKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D08D218D0DE800F408E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683D096218D0DE900F408E6 /* ClassicWMKit_Watch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF5521869BDD0038FEE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BCAF5E21869BDD0038FEE2 /* SKWindowManagerWatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D668F6612185427C00B29CD0 /* SpriteKitWindowManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D668F6742185427E00B29CD0 /* Build configuration list for PBXNativeTarget "SpriteKitWindowManager" */;
+			buildPhases = (
+				D668F65E2185427C00B29CD0 /* Sources */,
+				D668F65F2185427C00B29CD0 /* Frameworks */,
+				D668F6602185427C00B29CD0 /* Resources */,
+				D668F6882185432E00B29CD0 /* Embed Frameworks */,
+				D6BCAF5021869A8A0038FEE2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D668F6822185432E00B29CD0 /* PBXTargetDependency */,
+				D6BCAF4721869A8A0038FEE2 /* PBXTargetDependency */,
+				D683D085218D0DB300F408E6 /* PBXTargetDependency */,
+			);
+			name = SpriteKitWindowManager;
+			productName = SpriteKitWindowManager;
+			productReference = D668F6622185427D00B29CD0 /* SpriteKitWindowManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D668F67B2185432E00B29CD0 /* SKWindowManagerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D668F6852185432E00B29CD0 /* Build configuration list for PBXNativeTarget "SKWindowManagerKit" */;
+			buildPhases = (
+				D668F6772185432E00B29CD0 /* Headers */,
+				D668F6782185432E00B29CD0 /* Sources */,
+				D668F6792185432E00B29CD0 /* Frameworks */,
+				D668F67A2185432E00B29CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKWindowManagerKit;
+			productName = SKWindowManagerKit;
+			productReference = D668F67C2185432E00B29CD0 /* SKWindowManagerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D683D07E218D0DB300F408E6 /* ClassicWMKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D683D088218D0DB300F408E6 /* Build configuration list for PBXNativeTarget "ClassicWMKit" */;
+			buildPhases = (
+				D683D07A218D0DB300F408E6 /* Headers */,
+				D683D07B218D0DB300F408E6 /* Sources */,
+				D683D07C218D0DB300F408E6 /* Frameworks */,
+				D683D07D218D0DB300F408E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D683D08C218D0DC100F408E6 /* PBXTargetDependency */,
+			);
+			name = ClassicWMKit;
+			productName = ClassicWMKit;
+			productReference = D683D07F218D0DB300F408E6 /* ClassicWMKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D683D091218D0DE800F408E6 /* ClassicWMKit_Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D683D09B218D0DE900F408E6 /* Build configuration list for PBXNativeTarget "ClassicWMKit_Watch" */;
+			buildPhases = (
+				D683D08D218D0DE800F408E6 /* Headers */,
+				D683D08E218D0DE800F408E6 /* Sources */,
+				D683D08F218D0DE800F408E6 /* Frameworks */,
+				D683D090218D0DE800F408E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D683D09F218D0DF100F408E6 /* PBXTargetDependency */,
+			);
+			name = ClassicWMKit_Watch;
+			productName = ClassicWMKit_Watch;
+			productReference = D683D092218D0DE800F408E6 /* ClassicWMKit_Watch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6BCAF2B21869A870038FEE2 /* WMWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6BCAF4D21869A8A0038FEE2 /* Build configuration list for PBXNativeTarget "WMWatch" */;
+			buildPhases = (
+				D6BCAF2A21869A870038FEE2 /* Resources */,
+				D6BCAF4C21869A8A0038FEE2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6BCAF3B21869A890038FEE2 /* PBXTargetDependency */,
+			);
+			name = WMWatch;
+			productName = WMWatch;
+			productReference = D6BCAF2C21869A870038FEE2 /* WMWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D6BCAF3721869A890038FEE2 /* WMWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6BCAF4921869A8A0038FEE2 /* Build configuration list for PBXNativeTarget "WMWatch Extension" */;
+			buildPhases = (
+				D6BCAF3421869A890038FEE2 /* Sources */,
+				D6BCAF3521869A890038FEE2 /* Frameworks */,
+				D6BCAF3621869A890038FEE2 /* Resources */,
+				D6BCAF6621869BDD0038FEE2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6BCAF6021869BDD0038FEE2 /* PBXTargetDependency */,
+				D683D098218D0DE900F408E6 /* PBXTargetDependency */,
+			);
+			name = "WMWatch Extension";
+			productName = "WMWatch Extension";
+			productReference = D6BCAF3821869A890038FEE2 /* WMWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		D6BCAF5921869BDD0038FEE2 /* SKWindowManagerKit_Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6BCAF6321869BDD0038FEE2 /* Build configuration list for PBXNativeTarget "SKWindowManagerKit_Watch" */;
+			buildPhases = (
+				D6BCAF5521869BDD0038FEE2 /* Headers */,
+				D6BCAF5621869BDD0038FEE2 /* Sources */,
+				D6BCAF5721869BDD0038FEE2 /* Frameworks */,
+				D6BCAF5821869BDD0038FEE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKWindowManagerKit_Watch;
+			productName = SKWindowManagerWatch;
+			productReference = D6BCAF5A21869BDD0038FEE2 /* SKWindowManagerKit_Watch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D668F65A2185427C00B29CD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Aaron Kreipe";
+				TargetAttributes = {
+					D668F6612185427C00B29CD0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D668F67B2185432E00B29CD0 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					D683D07E218D0DB300F408E6 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					D683D091218D0DE800F408E6 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					D6BCAF2B21869A870038FEE2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D6BCAF3721869A890038FEE2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D6BCAF5921869BDD0038FEE2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = D668F65D2185427C00B29CD0 /* Build configuration list for PBXProject "SpriteKitWindowManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D668F6592185427C00B29CD0;
+			productRefGroup = D668F6632185427D00B29CD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D668F6612185427C00B29CD0 /* SpriteKitWindowManager */,
+				D668F67B2185432E00B29CD0 /* SKWindowManagerKit */,
+				D6BCAF2B21869A870038FEE2 /* WMWatch */,
+				D6BCAF3721869A890038FEE2 /* WMWatch Extension */,
+				D6BCAF5921869BDD0038FEE2 /* SKWindowManagerKit_Watch */,
+				D683D07E218D0DB300F408E6 /* ClassicWMKit */,
+				D683D091218D0DE800F408E6 /* ClassicWMKit_Watch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D668F6602185427C00B29CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D668F6702185427E00B29CD0 /* LaunchScreen.storyboard in Resources */,
+				D668F66D2185427E00B29CD0 /* Assets.xcassets in Resources */,
+				D668F66B2185427D00B29CD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D668F67A2185432E00B29CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D07D218D0DB300F408E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C0AEA2219914FC007D7DDD /* titlebarActive.png in Resources */,
+				D6C0AEA0219914FC007D7DDD /* selectedButtonActive.png in Resources */,
+				D6C0AE9A219914FB007D7DDD /* closeBoxActive.png in Resources */,
+				D6C0AEA4219914FC007D7DDD /* titlebarDisabled.png in Resources */,
+				D6C0AE9E219914FC007D7DDD /* buttonActive.png in Resources */,
+				D6C0AEA6219914FC007D7DDD /* windowBorder.png in Resources */,
+				D6C0AEA8219914FC007D7DDD /* selectedButtonNormal.png in Resources */,
+				D6C0AE9C219914FC007D7DDD /* classicGray.png in Resources */,
+				D6C0AEAA219914FC007D7DDD /* colorsFourByFour.png in Resources */,
+				D683D0AA218D334900F408E6 /* chicago.ttf in Resources */,
+				D6C0AE98219914FB007D7DDD /* buttonNormal.png in Resources */,
+				D6C0AE96219914FB007D7DDD /* closeBoxNormal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D090218D0DE800F408E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C0AEA3219914FC007D7DDD /* titlebarActive.png in Resources */,
+				D6C0AEA1219914FC007D7DDD /* selectedButtonActive.png in Resources */,
+				D6C0AE9B219914FB007D7DDD /* closeBoxActive.png in Resources */,
+				D6C0AEA5219914FC007D7DDD /* titlebarDisabled.png in Resources */,
+				D6C0AE9F219914FC007D7DDD /* buttonActive.png in Resources */,
+				D6C0AEA7219914FC007D7DDD /* windowBorder.png in Resources */,
+				D6C0AEA9219914FC007D7DDD /* selectedButtonNormal.png in Resources */,
+				D6C0AE9D219914FC007D7DDD /* classicGray.png in Resources */,
+				D6C0AEAB219914FC007D7DDD /* colorsFourByFour.png in Resources */,
+				D683D0AB218D334900F408E6 /* chicago.ttf in Resources */,
+				D6C0AE99219914FB007D7DDD /* buttonNormal.png in Resources */,
+				D6C0AE97219914FB007D7DDD /* closeBoxNormal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF2A21869A870038FEE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BCAF3221869A880038FEE2 /* Assets.xcassets in Resources */,
+				D6BCAF3021869A870038FEE2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF3621869A890038FEE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BCAF4421869A8A0038FEE2 /* Assets.xcassets in Resources */,
+				D6EF8D1F21895D7C004F3596 /* WindowTitleBar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF5821869BDD0038FEE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D668F65E2185427C00B29CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6552E462193949F009F3D1C /* WMGestureRecognizer.State+UIGestureRecognizerState.swift in Sources */,
+				D668F6682185427D00B29CD0 /* ViewController.swift in Sources */,
+				D6BCAF2921868E570038FEE2 /* MyNodeController.swift in Sources */,
+				D668F6662185427D00B29CD0 /* AppDelegate.swift in Sources */,
+				D668F68C2185439200B29CD0 /* SKViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D668F6782185432E00B29CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D594B02197D13C00D308EA /* SKSpriteNode+RepeatTexture.swift in Sources */,
+				D6D2B3412185AF58002380C1 /* WMButton.swift in Sources */,
+				D683D0B4218D6A6700F408E6 /* SKTextureAtlas+.swift in Sources */,
+				D683D075218C40E700F408E6 /* ResizeableSpriteNode.swift in Sources */,
+				D668F68A2185436000B29CD0 /* SpriteKit+WindowManager.swift in Sources */,
+				D6B7D5FB2188F3A300409433 /* SKNode+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D07B218D0DB300F408E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683D0B6218D6A6700F408E6 /* SKTextureAtlas+.swift in Sources */,
+				D683D0A1218D0ED200F408E6 /* TitledButton.swift in Sources */,
+				D683D0A3218D0F8400F408E6 /* WindowController.swift in Sources */,
+				D683D0A6218D0FCD00F408E6 /* WMResources.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683D08E218D0DE800F408E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683D0B7218D6A6700F408E6 /* SKTextureAtlas+.swift in Sources */,
+				D683D0A2218D0ED200F408E6 /* TitledButton.swift in Sources */,
+				D683D0A4218D0F8500F408E6 /* WindowController.swift in Sources */,
+				D683D0A7218D0FCD00F408E6 /* WMResources.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF3421869A890038FEE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BCAF4221869A890038FEE2 /* ExtensionDelegate.swift in Sources */,
+				D6BCAF6E2186A4670038FEE2 /* WKGestureRecognizer+SpriteKit.swift in Sources */,
+				D6552E4821939607009F3D1C /* WMGestureRecognizer.State+WKGestureRecognizerState.swift in Sources */,
+				D6BCAF3E21869A890038FEE2 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BCAF5621869BDD0038FEE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D594B42197E08100D308EA /* SKSpriteNode+RepeatTexture.swift in Sources */,
+				D6BCAF6821869C110038FEE2 /* WMButton.swift in Sources */,
+				D683D0B5218D6A6700F408E6 /* SKTextureAtlas+.swift in Sources */,
+				D683D076218C40E800F408E6 /* ResizeableSpriteNode.swift in Sources */,
+				D6BCAF6721869C0D0038FEE2 /* SpriteKit+WindowManager.swift in Sources */,
+				D6B7D5FC2188F3A300409433 /* SKNode+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D668F6822185432E00B29CD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D668F67B2185432E00B29CD0 /* SKWindowManagerKit */;
+			targetProxy = D668F6812185432E00B29CD0 /* PBXContainerItemProxy */;
+		};
+		D683D085218D0DB300F408E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D683D07E218D0DB300F408E6 /* ClassicWMKit */;
+			targetProxy = D683D084218D0DB300F408E6 /* PBXContainerItemProxy */;
+		};
+		D683D08C218D0DC100F408E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D668F67B2185432E00B29CD0 /* SKWindowManagerKit */;
+			targetProxy = D683D08B218D0DC100F408E6 /* PBXContainerItemProxy */;
+		};
+		D683D098218D0DE900F408E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D683D091218D0DE800F408E6 /* ClassicWMKit_Watch */;
+			targetProxy = D683D097218D0DE900F408E6 /* PBXContainerItemProxy */;
+		};
+		D683D09F218D0DF100F408E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6BCAF5921869BDD0038FEE2 /* SKWindowManagerKit_Watch */;
+			targetProxy = D683D09E218D0DF100F408E6 /* PBXContainerItemProxy */;
+		};
+		D6BCAF3B21869A890038FEE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6BCAF3721869A890038FEE2 /* WMWatch Extension */;
+			targetProxy = D6BCAF3A21869A890038FEE2 /* PBXContainerItemProxy */;
+		};
+		D6BCAF4721869A8A0038FEE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6BCAF2B21869A870038FEE2 /* WMWatch */;
+			targetProxy = D6BCAF4621869A8A0038FEE2 /* PBXContainerItemProxy */;
+		};
+		D6BCAF6021869BDD0038FEE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6BCAF5921869BDD0038FEE2 /* SKWindowManagerKit_Watch */;
+			targetProxy = D6BCAF5F21869BDD0038FEE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D668F6692185427D00B29CD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D668F66A2185427D00B29CD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D668F66E2185427E00B29CD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D668F66F2185427E00B29CD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6BCAF2E21869A870038FEE2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6BCAF2F21869A870038FEE2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D668F6722185427E00B29CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D668F6732185427E00B29CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D668F6752185427E00B29CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				INFOPLIST_FILE = SpriteKitWindowManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.SpriteKitWindowManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D668F6762185427E00B29CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				INFOPLIST_FILE = SpriteKitWindowManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.SpriteKitWindowManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D668F6862185432E00B29CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SKWindowManagerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.SKWindowManagerKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D668F6872185432E00B29CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SKWindowManagerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.SKWindowManagerKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D683D089218D0DB300F408E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ClassicWMKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.ClassicWMKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D683D08A218D0DB300F408E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ClassicWMKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.ClassicWMKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D683D09C218D0DE900F408E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ClassicWMKit_Watch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cghaker.ClassicWMKit-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		D683D09D218D0DE900F408E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ClassicWMKit_Watch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cghaker.ClassicWMKit-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		D6BCAF4A21869A8A0038FEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				INFOPLIST_FILE = "WMWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.SpriteKitWindowManager.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		D6BCAF4B21869A8A0038FEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				INFOPLIST_FILE = "WMWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.SpriteKitWindowManager.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		D6BCAF4E21869A8A0038FEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				IBSC_MODULE = WMWatch_Extension;
+				INFOPLIST_FILE = WMWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.SpriteKitWindowManager.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		D6BCAF4F21869A8A0038FEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				IBSC_MODULE = WMWatch_Extension;
+				INFOPLIST_FILE = WMWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.SpriteKitWindowManager.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		D6BCAF6421869BDD0038FEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SKWindowManagerWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.SKWindowManagerWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		D6BCAF6521869BDD0038FEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HPPYLXZS7Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SKWindowManagerWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cghaker.SKWindowManagerWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D668F65D2185427C00B29CD0 /* Build configuration list for PBXProject "SpriteKitWindowManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D668F6722185427E00B29CD0 /* Debug */,
+				D668F6732185427E00B29CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D668F6742185427E00B29CD0 /* Build configuration list for PBXNativeTarget "SpriteKitWindowManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D668F6752185427E00B29CD0 /* Debug */,
+				D668F6762185427E00B29CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D668F6852185432E00B29CD0 /* Build configuration list for PBXNativeTarget "SKWindowManagerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D668F6862185432E00B29CD0 /* Debug */,
+				D668F6872185432E00B29CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D683D088218D0DB300F408E6 /* Build configuration list for PBXNativeTarget "ClassicWMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D683D089218D0DB300F408E6 /* Debug */,
+				D683D08A218D0DB300F408E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D683D09B218D0DE900F408E6 /* Build configuration list for PBXNativeTarget "ClassicWMKit_Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D683D09C218D0DE900F408E6 /* Debug */,
+				D683D09D218D0DE900F408E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6BCAF4921869A8A0038FEE2 /* Build configuration list for PBXNativeTarget "WMWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6BCAF4A21869A8A0038FEE2 /* Debug */,
+				D6BCAF4B21869A8A0038FEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6BCAF4D21869A8A0038FEE2 /* Build configuration list for PBXNativeTarget "WMWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6BCAF4E21869A8A0038FEE2 /* Debug */,
+				D6BCAF4F21869A8A0038FEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6BCAF6321869BDD0038FEE2 /* Build configuration list for PBXNativeTarget "SKWindowManagerKit_Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6BCAF6421869BDD0038FEE2 /* Debug */,
+				D6BCAF6521869BDD0038FEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D668F65A2185427C00B29CD0 /* Project object */;
+}
